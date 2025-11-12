@@ -1,0 +1,17 @@
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\bin\Debug\net8.0\WarframeProfitAnalyzer.exe
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\bin\Debug\net8.0\WarframeProfitAnalyzer.deps.json
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\bin\Debug\net8.0\WarframeProfitAnalyzer.runtimeconfig.json
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\bin\Debug\net8.0\WarframeProfitAnalyzer.dll
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\bin\Debug\net8.0\WarframeProfitAnalyzer.pdb
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\obj\Debug\net8.0\WarframeProfitAnalyzer.csproj.AssemblyReference.cache
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\obj\Debug\net8.0\WarframeProfitAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\obj\Debug\net8.0\WarframeProfitAnalyzer.AssemblyInfoInputs.cache
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\obj\Debug\net8.0\WarframeProfitAnalyzer.AssemblyInfo.cs
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\obj\Debug\net8.0\WarframeProfitAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\obj\Debug\net8.0\Warframe.47AE7503.Up2Date
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\obj\Debug\net8.0\WarframeProfitAnalyzer.dll
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\obj\Debug\net8.0\refint\WarframeProfitAnalyzer.dll
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\obj\Debug\net8.0\WarframeProfitAnalyzer.pdb
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\obj\Debug\net8.0\WarframeProfitAnalyzer.genruntimeconfig.cache
+C:\Users\simoo\OneDrive\Desktop\WarframeProfitAnalyzer\WarframeProfitAnalyzer\WarframeProfitAnalyzer\obj\Debug\net8.0\ref\WarframeProfitAnalyzer.dll
