@@ -21,12 +21,12 @@
         public ItemI18n? I18n { get; set; }
 
         // Easy access to English name
-        public string Name => I18n?.en?.Name ?? Slug;
+        public string Name => I18n?.En?.Name ?? Slug;
     }
 
     public class ItemI18n
     {
-        public ItemLang? en { get; set; }
+        public ItemLang? En { get; set; }
     }
 
     public class ItemLang

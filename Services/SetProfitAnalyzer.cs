@@ -67,7 +67,7 @@ namespace WarframeProfitAnalyzer.Servivces
                     Console.WriteLine($"{item.Name}: {sellOrders[0].Platinum} platinum x{requiredQuantity} = {totalPrice}");
                 }
 
-                await Task.Delay(1000); // rate limiting
+                await Task.Delay(334); // rate limiting (api says 3 per second)
             }
 
             Console.WriteLine($"\nSet cost: {setCost}");
@@ -99,6 +99,19 @@ namespace WarframeProfitAnalyzer.Servivces
             }
 
             return totalCost;
+        }
+
+        public static async Task<List<ItemShort>> GetAllSetsAsync()
+        {
+            var response = await WarframeMarketApi.GetAsync<ItemsResponse>("items");
+
+            if (response?.Data == null)
+                return new List<ItemShort>();
+
+             // Filter only tradable sets
+            return response.Data
+                .Where(item => item.Tags?.Contains("set") == true)
+                .ToList();
         }
     }
 }
