@@ -5,10 +5,12 @@ class Program
 {
     static async Task Main()
     {
-        Console.WriteLine("Enter Warframe set URL name (e.g., 'volt_prime_set'):");
-        var slug = Console.ReadLine();
-
         var analyzer = new SetProfitAnalyzer();
-        await analyzer.CalculateSetProfitAsync(slug);
+        while (true)
+        {
+            Console.WriteLine("Enter Warframe set URL name (e.g., 'volt_prime_set'):");
+            var slug = Console.ReadLine();
+            await analyzer.CalculateSetProfitAsync(slug);
+        }
     }
 }

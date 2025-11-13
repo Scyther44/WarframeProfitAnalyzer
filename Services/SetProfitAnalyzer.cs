@@ -8,7 +8,22 @@ namespace WarframeProfitAnalyzer.Servivces
     {
         public async Task<(int setCost, int partsCost)> CalculateSetProfitAsync(string setSlug)
         {
-            var setResponse = await WarframeMarketApi.GetAsync<ItemSetResponse>($"item/{setSlug}/set");
+            ItemSetResponse? setResponse = null;
+            try
+            {
+                setResponse = await WarframeMarketApi.GetAsync<ItemSetResponse>($"item/{setSlug}/set");
+            }
+            catch (HttpRequestException)
+            {
+                Console.WriteLine("Invalid HTTP Request: Could not reach Warframe Market. Please use a correct url. Make sure your internet and warframe market are working.\n");
+                return (0, 0);
+            }
+            catch (System.Text.Json.JsonException)
+            {
+                Console.WriteLine("API returned unexpected data. The item may not exist.\n");
+                return (0, 0);
+            }
+
             var setItems = setResponse?.Data?.Items;
 
             if (setItems == null || setItems.Count == 0)
@@ -41,8 +56,6 @@ namespace WarframeProfitAnalyzer.Servivces
                 int requiredQuantity = item.QuantityInSet ?? 1;
                 int totalPrice = GetTotalPriceForQuantity(sellOrders, requiredQuantity);
 
-                Console.WriteLine($"{item.Name}: {sellOrders.First().Platinum} platinum x{requiredQuantity} = {totalPrice}");
-
                 if (item.Slug.EndsWith("set"))
                 {
                     setCost = totalPrice;
@@ -54,7 +67,7 @@ namespace WarframeProfitAnalyzer.Servivces
                     Console.WriteLine($"{item.Name}: {sellOrders[0].Platinum} platinum x{requiredQuantity} = {totalPrice}");
                 }
 
-                await Task.Delay(2000); // rate limiting
+                await Task.Delay(1000); // rate limiting
             }
 
             Console.WriteLine($"\nSet cost: {setCost}");
