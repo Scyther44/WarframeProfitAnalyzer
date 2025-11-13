@@ -39,7 +39,7 @@ namespace WarframeProfitAnalyzer.Servivces
 
             foreach (var item in setItems)
             {
-                Console.WriteLine($"Fetching price for item: {item.Name} ...");
+                //Console.WriteLine($"Fetching price for item: {item.Name} ...");
 
                 var ordersResponse = await WarframeMarketApi.GetAsync<OrdersResponse>($"orders/item/{item.Slug}/top");
 
