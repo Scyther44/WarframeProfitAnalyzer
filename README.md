@@ -1,8 +1,8 @@
 This console application is for determining potential profit when selling item sets in Warframe based on prices from Warframe.Market.
 By buying the individual parts for a set and then selling the set in its entirety you can generate a lot of extra platinum (in-game currency). 
 
-Simply enter the url for a set you would like to see profit information for and it will display the parts cost, set cost and profit (set cost - parts cost). 
-Or use the "all" command to get a full anaylsis of all sets and a list of the most profitable sets to trade at the end (this can take up to 10 minutes :P)
+Simply enter the url for a set you would like to see profit information for and it will display the real-time parts cost, set cost and profitability (set cost - parts cost).
+Or use the "all" command to get a full anaylsis of all sets and a list of the most profitable sets to trade at the end (this can take up to 10 minutes)
 
 Made using .Net and Warframe Market API. API documentation: https://42bytes.notion.site/WFM-Api-v2-Documentation-5d987e4aa2f74b55a80db1a09932459d
 
